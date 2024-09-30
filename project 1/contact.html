@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Contact Us</h1>
+    </header>
+
+    <section class="contact-form">
+        <h2>Get in Touch</h2>
+        <form>
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone">
+
+            <label for="reason">Reason for Contact:</label>
+            <select id="reason">
+                <option>Product Inquiry</option>
+                <option>Order Issue</option>
+                <option>Customization Request</option>
+            </select>
+
+            <label for="newsletter">
+                <input type="checkbox" id="newsletter" name="newsletter">
+                Subscribe to Newsletter
+            </label>
+
+            <label for="appointment">Preferred Contact Date:</label>
+            <input type="date" id="appointment" name="appointment">
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <footer>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="catalog.html">Catalog</a>
+            <a href="customizer.html">Customizer</a>
+            <a href="checkout.html">Checkout</a>
+        </nav>
+    </footer>
+</body>
+</html>
